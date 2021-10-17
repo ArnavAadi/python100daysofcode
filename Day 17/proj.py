@@ -1,7 +1,9 @@
 from question_model import Question
 from data import question_data
 from quiz_brain import QuizBrain
+import os
 
+os.system("cls")
 question_bank = []
 
 for question in question_data:
