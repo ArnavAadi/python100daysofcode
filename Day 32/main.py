@@ -2,6 +2,7 @@ import smtplib
 import datetime as dt
 import random
 
+
 with open("quotes.txt") as data:
     data = data.readlines()
     quote = random.choice(data)
