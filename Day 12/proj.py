@@ -1,9 +1,11 @@
 import random
 
-difficulty = input("choose the difficulty hard or easy: ")
+difficulty = input("choose the difficulty hard, medium or easy: ")
 
 if difficulty == "hard":
     difficulty = 5
+elif difficulty == "medium":
+    difficulty = 8
 else:
     difficulty = 10
 
@@ -21,3 +23,5 @@ while difficulty != 0:
         print("Too low")
     difficulty -= 1
     print(f"you have {difficulty} turns.")
+
+print(f"number was {number}")
